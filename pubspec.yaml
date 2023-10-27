@@ -1,5 +1,5 @@
 name: angular_app
-description: A web app that uses AngularDart
+description: A web app that uses AngularDart called Tour of Heroes.
 version: 0.0.1
 
 environment:
