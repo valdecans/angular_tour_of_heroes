@@ -1,14 +1,14 @@
 import 'hero.dart';
 
 final mockHeroes = <Hero>[
-  Hero(11, 'Mr. Nice'),
-  Hero(12, 'Narco'),
-  Hero(13, 'Bombasto'),
-  Hero(14, 'Celeritas'),
-  Hero(15, 'Magneta'),
-  Hero(16, 'RubberMan'),
-  Hero(17, 'Dynama'),
-  Hero(18, 'Dr IQ'),
-  Hero(19, 'Magma'),
-  Hero(20, 'Tornado'),
+  Hero(11, 'Pará'),
+  Hero(12, 'São Paulo'),
+  Hero(13, 'Rio de Janeiro'),
+  Hero(14, 'Minas Gerais'),
+  Hero(15, 'Acre'),
+  Hero(16, 'Paraná'),
+  Hero(17, 'Mato Grosso'),
+  Hero(18, 'Goiás'),
+  Hero(19, 'Ceará'),
+  Hero(20, 'Pernambuco'),
 ];
