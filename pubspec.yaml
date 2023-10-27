@@ -7,6 +7,7 @@ environment:
 
 dependencies:
   ngdart: ^7.1.0
+  ngforms: ^4.1.1
 
 # #docregion dev_dependencies, build-dependencies
 dev_dependencies:
