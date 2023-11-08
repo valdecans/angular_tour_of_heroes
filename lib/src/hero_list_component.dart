@@ -18,8 +18,8 @@ class HeroListComponent implements OnInit {
   Future<void> _getHeroes() async {
     heroes = await _heroService.getAllSlowly();
   }
-
   final HeroService _heroService;
+
   HeroListComponent(this._heroService);
 
   void onSelect(Hero hero) => selected = hero;
