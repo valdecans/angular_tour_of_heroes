@@ -6,4 +6,9 @@
         <span class="badge">{{hero.id}}</span> {{hero.name}}
     </li>
 </ul>
-<my-hero [hero]="selected"></my-hero>
+<div *ngIf="selected != null">
+    <h2>
+        {{$pipe.uppercase(selected!.name)}} is my hero
+    </h2>
+    <button (click)="gotoDetail()">View Derails</button>
+</div>

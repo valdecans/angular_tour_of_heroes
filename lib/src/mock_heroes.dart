@@ -1,6 +1,6 @@
 import 'hero.dart';
 
-final mockHeroes = <Hero>[
+final List<Hero> mockHeroes = <Hero>[
   Hero(11, 'Achilles'),
   Hero(12, 'Cadmus'),
   Hero(13, 'Diomedes'),
